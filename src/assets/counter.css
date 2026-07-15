@@ -1,0 +1,22 @@
+.dis {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 30vh;
+  flex-direction: column; /* Stacks children on different rows */
+  gap: 15px;
+}
+.diss {
+  padding: 20px 300px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.disa {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(253, 197, 93);
+  border: none;
+  padding: 25px;
+}
