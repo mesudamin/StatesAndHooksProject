@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hookDiv {
+  text-align: center;
+}
+.hookdis {
+  background-color: hsl(0, 0%, 85%);
+  padding: 90px 50px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+.hookbtn {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 25px 80px;
+  color: white;
+  background-color: orange;
+  border: none;
+}
+
+.gap {
+  margin-left: 80px;
+  margin-right: 80px;
+}
