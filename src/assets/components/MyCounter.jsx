@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import CounterDisplayer from "./CounterDisplayer"
+import EvenCounterDisplayer from "./EvenCounterDisplayer"
 export default class MyCounter extends Component {
 constructor(props) {
     super(props);
-    // Define initial state inside constructor
+    
     this.state = {
       count: 0
     };
@@ -21,6 +22,9 @@ allClicksCounter=()=>{
         <button onClick={this.allClicksCounter} className='disa' >click here</button>
        <CounterDisplayer 
        count={this.state.count}
+       />
+       <EvenCounterDisplayer
+        count={this.state.count}
        />
        </div>
       </>
